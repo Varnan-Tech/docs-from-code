@@ -1,5 +1,7 @@
 # docs-from-code
 
+![docs-from-code](https://github.com/user-attachments/assets/493c7c61-9aa9-48e9-a71b-7c77c8c6a949)
+
 Automatically generate and maintain README.md, API reference docs, and an Architecture section by reading your codebase. Uses [graphify](https://github.com/safishamsi/graphify) to build a knowledge graph first, then uses AI to write clean documentation grounded in what actually exists.
 
 ## What It Generates
