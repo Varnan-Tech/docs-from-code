@@ -4,6 +4,38 @@
 
 Automatically generate and maintain README.md, API reference docs, and an Architecture section by reading your codebase. Uses [graphify](https://github.com/safishamsi/graphify) to build a knowledge graph first, then uses AI to write clean documentation grounded in what actually exists.
 
+## Installation
+
+### Prerequisites
+
+You need [Node.js](https://nodejs.org/) installed. It comes with `npx` built in.
+
+### Option 1: npx (All Agents)
+
+```bash
+npx "@opendirectory.dev/skills" install docs-from-code --target claude
+```
+
+Supported `--target` values: `claude`, `gemini`, `codex`, `opencode`, `anti-gravity`, `openclaw`, `hermes`
+
+### Option 2: Native Plugin (Claude Code Only)
+
+Run these two commands inside your Claude Code terminal:
+
+```bash
+/plugin marketplace add Varnan-Tech/opendirectory
+/plugin install docs-from-code@opendirectory-marketplace
+```
+
+### Option 3: Claude Desktop App
+
+**Step 1: Download**
+Click **Code → Download ZIP** on this repo's GitHub page.
+
+**Step 2: Install**
+1. Open Claude Desktop > Customize > Skills > **+** > Upload a skill
+2. Drop the downloaded zip or extracted folder
+
 ## What It Generates
 
 | Output | When |
